@@ -1,0 +1,53 @@
+# Simulation data (ALWAYS ignore)
+**/adexl/
+**/adexl_*/
+**/test_states/
+**/spectre/
+**/psf/
+**/psfbb/
+**/results/
+**/resultsDir/
+**/run/
+**/tmp/
+**/*_tmpstate*/
+**/*tmpstate*
+**/*_Interactive.*/
+**/*Interactive.*
+
+# Cadence databases & binaries
+**/*.sdb
+**/*.ic
+**/*.trn
+**/*.raw
+**/*.out
+**/*.log
+**/*.info
+**/*.stat
+**/*.history
+**/*.dump
+
+# Cadence lock & cache files
+**/*.cdslck
+**/*.cdsinit
+**/*.cdsenv
+**/*.cds.lib
+**/*.oaLock*
+**/*.oaCache*
+
+# Generated or machine-specific OA files
+**/.oalib
+**/lib.defs
+**/lib.lock
+**/lib.sdb
+**/master.tag~
+**/*~ 
+
+# TEMP / BACKUP FILES
+**/*.bak
+**/*.tmp
+**/*.swp
+**/*.swo
+**/*.autosave
+
+materiale/1_uj7CxZvGk_PtjPXGHme--w-removebg-preview.png
+materiale/a-Single-layer-perceptron-with-four-inputs-and-two-outputs-b-General-computational.png

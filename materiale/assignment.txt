@@ -1,0 +1,20 @@
+Bisogna affrontare questi 4 punti:
+
+1. Studiare la dipendenza del fattore di moltiplicazione dello specchio di corrente (FGCM nella libreria NeuromorphicLib) al variare della carica iniettata nel floating gate della cella moltiplicatrice (cella di input sempre con carica nulla). [Esempio già fatto insieme a lezione del 10 dicembre].
+
+t1a corrente input
+Qfg varia da -1fC a 1fC a passi di 100aC
+t1b sono correnti output (I0): rosso -1fC, verde basso +1fC
+
+2. Analizzare il comportamento dell'ENOB del moltiplicatore a singolo specchio di corrente (cella FGCM nella libreria NeuromorphicLib) al variare di un parametro di progettazione a scelta libera (esempio: corrente, M, L, etc).
+
+M da 1 a 10 a passi di 1
+Qfg messo a -80a resto uguale
+t2a guarda la corr in uscita, per M 1 e 2 è più piccola di quella in ingresso, da M 3 diventa identica
+
+poi M=3 fisso e L=300n:100n:3u
+t2c guarda la corr in uscita, per L 300n e 400n è più grande di quella in ingresso, da L=0.5u diventa identica
+
+3. Una volta fissato un set di parametri di progettazione, costruire il layout della singola cella floating-gate (FGcell nella libreria NeuromorphicLib). Eseguire le verifiche DRC e LVS.
+
+4. A partire dal layout della cella FGcell, costruire il layout di un moltiplicatore 4x4 (ovvero, 4 input cells e 4x4 multiplying cells). Eseguire le verifiche DRC e LVS.
